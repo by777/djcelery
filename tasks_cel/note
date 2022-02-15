@@ -1,0 +1,3 @@
+celery -A  celery_tasks worker -l info -P eventlet
+
+eventlet 是一个协程模块

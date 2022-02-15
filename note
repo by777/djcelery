@@ -3,3 +3,9 @@ celery -A  celery_task worker -l info -P eventlet
 celery -A  celery_tasks beat
 
 python manage.py startapp app01
+python manage.py runserver
+
+
+https://www.bilibili.com/video/BV1tq4y187k5?p=7
+
+https://www.cnblogs.com/pyedu/p/12461819.html
