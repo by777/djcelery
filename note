@@ -1,0 +1,5 @@
+celery -A  celery_task worker -l info -P eventlet
+
+celery -A  celery_tasks beat
+
+python manage.py startapp app01
